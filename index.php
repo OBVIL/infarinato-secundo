@@ -47,7 +47,7 @@ echo $conf['title'];
             echo '<a href="'.$basehref.'">'.$conf['title'].'</a>';
           }
           else if ( !$path ) {
-            echo '<a href="//obvil.paris-sorbonne.fr/projets/edition-digitale-et-etude-de-la-polemique-autour-de-gongora">OBVIL, '.$conf['title'].'</a>';
+            echo '<a href="http://obvil.paris-sorbonne.fr/projets/gongora-et-les-querelles-litteraires-de-la-renaissance">OBVIL, '.$conf['title'].'</a>';
           }
           else {
             echo '<a href="'.$basehref.'?'.$_COOKIE['lastsearch'].'">'.$conf['title'].'</a>';
